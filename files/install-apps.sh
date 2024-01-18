@@ -1,6 +1,18 @@
 
 #!/bin/bash
 
+echo "||====|| ||===|| ||===||   ||===|| ||===|| ||   ||"
+sleep .1
+echo "||    || ||   || ||    ||    |||   ||   || |||  ||"
+sleep .1
+echo "||====|| ||   || ||     ||   |||   ||   || || | ||"
+sleep .1
+echo "||||     ||   || ||     ||   |||   ||   || ||  |||"
+sleep .1
+echo "||  ||   ||   || ||    ||    |||   ||   || ||  |||"
+sleep .1
+echo "||    || ||===|| ||===||   ||===|| ||===|| ||   ||"
+
 sleep .1
 echo "   "
 sleep .1
@@ -19,8 +31,7 @@ echo "Succesful packages update!"
 sleep .1
 echo "   "
 sleep .1
-echo "Packages list: gdebi, gimp, mpv, neovim, git, neofetch, chromium-shell, lightdm-gtk-greeter-settings, telegram-desktop, audacity, blender. "
-
+echo "   "
 sleep .1
 echo "   "
 sleep .1
@@ -51,7 +62,7 @@ echo "Copyleft (c) RodionMern "
 sleep .01
 echo "Version this script is  "
 sleep .01
-echo "1.0.5, you can find is  "
+echo "1.0.6, you can find is  "
 sleep .01
 echo "my GitHub --            "
 sleep .01
