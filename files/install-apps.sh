@@ -40,14 +40,36 @@ echo "Okey. Download packages, starts in 5 seconds."
 sleep .05
 echo "   "
 sleep 5
-	
-sudo apt-get install mc moc mpv neovim git neofetch gdebi gimp chromium lightdm-gtk-greeter-settings telegram-desktop # audacity blender
+echo "CLI Utilities:"
+sudo apt-get install mc moc mpv htop neovim git neofetch # audacity blender
 
-	
-sleep .05
-echo "   "
+echo "   
+Interface Apps:"
 
-echo "Succesful packages install!"
+sudo apt-get gdebi gimp chromium lightdm-gtk-greeter-settings telegram-desktop
+
+echo "   
+Vim-plug:"
+
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+echo "   
+For use vim-plug creating directory '~/.config/nvim/', and creating file 'init.vim', and write:
+
+all plug#begin()
+	
+	Plug 'preservim/nerdtree'
+
+call plug#end()
+
+For install your plugins you can write command :PlugInstall in nvim.
+
+And you can use my vim config: ./Vim/init.vim."
+
+sleep 5
+echo "   
+Succesful packages install!"
 
 sleep .1
 echo "   "
@@ -58,7 +80,7 @@ echo "   "
 
 echo "Copyleft (c) RodionMern "
 sleep .01
-echo "Version this script is 1.0.9, you can find is "
+echo "Version this script is 1.1.0, you can find is "
 sleep .01
 echo "version of script or newest version, in my GitHub profile - "
 sleep .01
