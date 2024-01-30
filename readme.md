@@ -1,6 +1,6 @@
-## Install
+## Download files
 
-Linux
+GNU/Linux
 
 ```
 sudo apt update
@@ -14,7 +14,7 @@ sudo apt install git
 git clone https://github.com/rodionmern/dotfiles.git
 ```
 
-Windows
+Windows/NT systems
 
 ```
 winget install --id Git.Git -e --source winget 
