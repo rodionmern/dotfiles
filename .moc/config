@@ -1,3 +1,6 @@
+# HELLO! You should clone https://github.com/vim-airline/vim-airline-themes to your mocp directory and rename this to "themes", else themes dont working.
+
+
 # This is a configuration file for the MOC player.  It should be named
 # 'config' and placed in the ~/.moc directory.  As this file can specify
 # commands which invoke other applications, MOC will refuse to start if it

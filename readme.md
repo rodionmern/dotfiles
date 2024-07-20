@@ -1,62 +1,22 @@
-## Download files
+this is my repository, where I'am collect my configs and bash files.
 
-GNU/Linux
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-```
-sudo apt update
-```
+![image](screenshot-1.png)
 
-```
-sudo apt install git
-```
+---
+
+you can clone my repo:
 
 ```
-git clone https://github.com/rodionmern/dotfiles.git
+git clone https://notabug.org/rodion/dotfiles.git
 ```
 
-Windows/NT systems
+to use bash files you need to grant them access:
 
 ```
-winget install --id Git.Git -e --source winget 
+chmod -x path-to-file
 ```
 
-```
-git clone https://github.com/rodionmern/dotfiles.git
-```
-
-Macos
-
-```
-brew install git
-```
-
-```
-git clone https://github.com/rodionmern/dotfiles.git
-```
-
-## Scripts
-
-To open sh files from this repository you can write this commands:
-
-```
-chmod -x <path_to_file>
-```
-
-```
-bash <path_to_file>
-```
-
-
-## Configs
-
-To open configs you can use code editors (VSCode, Sublime Text 3) or cli editors, in example:
-
-```
-nvim <path_to_file>
-```
-
-or
-
-```
-nano <path_to_file>
-```
+all files in this repo, I'm edited or created myself.
+some files which I'm created myself (configs don't count), distributed under the GNU GPLv3 license
