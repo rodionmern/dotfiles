@@ -23,8 +23,8 @@ call plug#begin()
 	
 	Plug 'preservim/nerdtree'
 	Plug 'ap/vim-css-color'
-	Plug 'HenryNewcomer/vim-theme-papaya'
-	
-call plug#end()
+	Plug 'townk/vim-autoclose'
+	Plug 'craigemery/vim-autotag'
+	Plug 'mattn/emmet-vim'
 
-colorscheme papaya
+call plug#end()

@@ -1,5 +1,0 @@
-sleep 1
-tint2 &
-xfce4-terminal &
-pulseaudio &
-nitrogen --restore &
